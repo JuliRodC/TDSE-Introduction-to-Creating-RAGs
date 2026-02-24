@@ -32,30 +32,22 @@ get_user_location  get_weather_for_location
 
 ## Instalación y Ejecución
 
-### 1. Clonar el repositorio
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-```
-
-### 2. Instalar dependencias
+### 1. Instalar dependencias
 
 ```bash
 pip install langchain langchain-groq langgraph
 ```
 
-### 3. Configurar la API Key
+### 2. Configurar la API Key
 
 En el archivo `main.py`, reemplazar la API key de Groq:
 
 ```python
-os.environ["GROQ_API_KEY"] = "tu-api-key-de-groq"
+os.environ["GROQ_API_KEY"] = "aqui va la API KEY"
 ```
 
-> Se puede obtener una API key gratuita en https://console.groq.com
 
-### 4. Ejecutar el código
+### 3. Ejecutar el código
 
 ```bash
 python main.py
